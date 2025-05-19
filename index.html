@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coopérative de Produits de Rose</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+  <div class="header-content">
+    <div class="logo">
+      <img src="image/logo-removebg-preview.png" alt="Logo" />
+      <link rel="stylesheet" href="contact.css">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</header>
+
+  <section class="hero-section" id="accueil">
+    <div class="overlay">
+      <h1>La beauté et la pureté de la rose à votre portée</h1>
+      <p>Produits 100% naturels extraits avec soin de la rose</p>
+    </div>
+  </section>
+
+  <section class="middle-background">
+    <h2>Découvrez la magie de la rose</h2>
+    <p>Nos produits sont fabriqués à base de rose naturelle, cultivée avec amour au cœur de notre coopérative.</p>
+  </section>
+
+  <section class="products" id="produits">
+    <h2 class="section-title">Nos Produits</h2>
+    <div class="product-list">
+      <article class="product">
+        <img src="image/eau.jpg" alt="Eau de rose" />
+        <h3>Eau de Rose</h3>
+        <p>Une eau florale pure pour rafraîchir et tonifier votre peau.</p>
+        <p class="price">60 DH</p>
+        <button onclick="commander('Eau de Rose')">Commander</button>
+      </article>
+
+      <article class="product">
+        <img src="image/huille.jpg" alt="Huile de rose" />
+        <h3>Huile de Rose</h3>
+        <p>Huile essentielle riche pour nourrir et protéger la peau.</p>
+        <p class="price">120 DH</p>
+        <button onclick="commander('Huile de Rose')">Commander</button>
+      </article>
+
+      <article class="product">
+        <img src="image/cream.jpg" alt="Crème de rose" />
+        <h3>Crème de Rose</h3>
+        <p>Crème hydratante et apaisante pour une peau éclatante.</p>
+        <p class="price">80 DH</p>
+        <button onclick="commander('Crème de Rose')">Commander</button>
+      </article>
+    </div>
+  </section>
+
+<footer id="contact" class="rose-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Coopérative Rose. Tous droits réservés.</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://wa.me/212600000000" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
